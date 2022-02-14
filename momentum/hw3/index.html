@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Random Number Game</h1>
+    <form id="game-form">
+        <h3>
+            Generate a number between 0 and
+            <input id="range-number" type="number"/>
+        </h3>
+        <label for="guess-number">
+            Guess the number:
+        </label>
+        <input id="guess-number" type="number" min="0"/>
+        <button>Play!</button>
+    </form>
+    <p id="choose"></p>
+    <h3 id="result"></h3>
+    <script src="app.js"></script>
+</body>
+</html>
